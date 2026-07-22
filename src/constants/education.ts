@@ -11,4 +11,14 @@ export const educationList: Education[] = [
     competence: "Sains",
     years: "2019 - 2022",
   },
+  {
+    school: "SMP 3 Kepahiang",
+    competence: " ",
+    years: "2016 - 2019",
+  },
+  {
+    school: "SDN 3 Kepahiang",
+    competence: " ",
+    years: "2010 - 2016",
+  },
 ];
