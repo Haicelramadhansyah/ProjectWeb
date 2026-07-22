@@ -162,8 +162,33 @@ export const toolList: Skill[] = [
   },
   {
     skillIcon: "/assets/svg/git.svg",
-    title: "Git",
+    title: "Git Bash",
     level: "Basic",
     description: "Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development.",
   },
+  {
+    skillIcon: "/assets/svg/Linux.svg",
+    title: "Linux",
+    level: "Basic",
+    description: "Linux is a free and open-source operating system kernel.",
+  },
+  {
+    skillIcon: "/assets/svg/intellij2.svg",
+    title: "IntelliJ IDEA",
+    level: "Basic",
+    description: "Linux is a free and open-source operating system kernel.",
+  },
+  {
+    skillIcon: "/assets/svg/cplusplus.svg",
+    title: "DevC++",
+    level: "Basic",
+    description: "DevC++ is a free and open-source integrated development environment for the C++ programming language.",
+  },
+  {
+    skillIcon: "/assets/svg/KaliLinux.svg",
+    title: "Kali Linux",
+    level: "Basic",
+    description: "Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing.",
+  },
+
 ];
