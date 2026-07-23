@@ -1,10 +1,10 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import { Box, Container, Flex } from "@chakra-ui/react";
+import { Box, Container } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import { SectionDescription, SectionSubtitle, SectionTitle, WorkExperienceCard } from "@/fragments";
+import { SectionTitle, WorkExperienceCard } from "@/fragments";
 import { workExperienceList } from "@/constants";
 import SectionLayout from "@/layouts/SectionLayout";
 import "swiper/css/navigation";
@@ -31,24 +31,17 @@ function ExperienceSectionComponent(): React.JSX.Element {
         initial="hidden"
         whileInView="show"
         maxWidth={{ base: "container.lg", lg: "75rem" }}
+        display="flex"
+        flexDirection="column"
+        alignItems="center"
       >
-        {/* Experience Section Subtitle & Description */}
-        <Flex
-          as={motion.div}
-          variants={fadeInTransition("up", "tween", 0.1, 1.1)}
-          direction="column"
-          rowGap={{ base: 3, lg: 5 }}
-        >
-          <SectionSubtitle>Work Experiences⌛</SectionSubtitle>
-          <SectionDescription>I&apos;m also experienced at some website development and software testing that i learn for over 1 years will described below</SectionDescription>
-        </Flex>
-
         {/* Experience Section Work Experiences Container */}
         <Box
           as={motion.div}
           variants={fadeInTransition("up", "tween", 0.2, 1.2)}
           marginTop={12}
           paddingBottom={16}
+          width="100%"
         >
           {/* Experience Section Work Experiences Slider */}
           <Swiper

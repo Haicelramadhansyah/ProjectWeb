@@ -31,13 +31,15 @@ export default function PortfolioCard({ title, imageThumbnail, description, live
           flexDirection="column"
           rowGap={4}
         >
-          <Box
-            borderRadius="md"
-            overflow="hidden"
-            borderWidth="1.5px"
-            borderColor="secondary"
-            position="relative"
-          >
+         <Box
+  borderRadius="md"
+  overflow="hidden"
+  borderWidth="1.5px"
+  borderColor="secondary"
+  position="relative"
+  height="12rem"    // Tinggi tetap untuk SEMUA card, seragam
+  width="100%"
+>
             <Box
               height="full"
               width="full"

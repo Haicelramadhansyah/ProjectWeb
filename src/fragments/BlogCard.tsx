@@ -21,6 +21,9 @@ export default function BlogCard({ slug, title, description, thumbnailImage, cat
       shadow="lg"
       role="group"
       transition="all 300ms"
+      height="100%"
+      display="flex"
+      flexDirection="column"
       _hover={{
         shadow: "2xl",
       }}
@@ -29,6 +32,7 @@ export default function BlogCard({ slug, title, description, thumbnailImage, cat
         display="flex"
         flexDirection="column"
         rowGap={5}
+        flexGrow={1}
       >
         <Box
           overflow="hidden"
@@ -51,7 +55,8 @@ export default function BlogCard({ slug, title, description, thumbnailImage, cat
 
         <Flex
           justifyContent="space-between"
-          alignItems="center"
+          alignItems="flex-start"
+          minHeight="2.75rem"
         >
           <Flex
             wrap="wrap"
@@ -78,6 +83,7 @@ export default function BlogCard({ slug, title, description, thumbnailImage, cat
             display="inline-flex"
             alignItems="center"
             columnGap={1}
+            whiteSpace="nowrap"
           >
             <BiTime /> {formattedUploadedAt}
           </Text>

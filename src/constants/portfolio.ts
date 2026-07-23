@@ -2,10 +2,10 @@ import type { Portfolio } from "@/types";
 
 export const portfolioList: Portfolio[] = [
   {
-    title: "KNA Landing Page",
-    imageThumbnail: "/assets/images/project-17.webp",
+    title: "KostIn",
+    imageThumbnail: "/assets/images/KostIn.png",
     description:
-      "KNA (Keanu Abimanyu Construction) Landing Page is a website that I created using HTML, CSS, JS, and Tailwind. This website displays information about a construction company that operates in the field of construction, such as building, renovation, and maintenance services. This website also has portfolio, testimonial, and consultation features that make it easy for visitors to know the quality and excellence of this construction company.",
+      "kostIn is a web application that I created using HTML, CSS, Tailwind, and JavaScript. This web application is about a platform that helps users find and book kost (boarding house) rooms in Indonesia. This web application allows users to search, filter, and compare kost options based on their preferences and budget. This web application also has features such as reviews, ratings, and payment. This web application aims to provide users with a convenient and reliable service to find their ideal kost rooms.",
     livePreviewURL: "",
     repositoryURL: "",
     techStack: [
@@ -16,10 +16,6 @@ export const portfolioList: Portfolio[] = [
       {
         tech: "CSS",
         logo: "/assets/svg/css.svg",
-      },
-      {
-        tech: "Tailwind",
-        logo: "/assets/svg/tailwind.svg",
       },
       {
         tech: "JavaScript",
@@ -51,7 +47,7 @@ export const portfolioList: Portfolio[] = [
     ],
   },
   {
-    title: "My Games Create",
+    title: "Hereos Of Eternity",
     imageThumbnail: "/assets/images/project-01.png",
     description:
       "This is a 2D RPG game project developed using Java and LibGDX. The game includes character selection, enemy and boss battles, animations, sound systems, and interactive gameplay mechanics. Through this project, I implemented object-oriented programming concepts such as inheritance, polymorphism, and encapsulation, while also applying game architecture principles including screen management, asset handling, and entity-based design.",
