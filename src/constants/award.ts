@@ -2,18 +2,18 @@ import type { Award } from "@/types";
 
 export const awardList: Award[] = [
   {
-    award: "5 Th Winner Web Design Competition",
-    place: "Ahmad Dahlan University",
-    years: "September - 2023",
+    award: "Cyber Security Learning Path",
+    place: "TryHackMe",
+    years: "2026",
   },
   {
-    award: "Completed ZettaCamp Frontend Bootcamp",
-    place: "Zettabyte Pte Ltd",
-    years: "April - 2022",
+    award: "Smart Car Obstacle Avoidance Robotics Project",
+    place: "Robotic Development Community (RDC) - Universitas Ahmad Dahlan",
+    years: "2024",
   },
   {
-    award: "Completed ZettaCamp Angular Bootcamp",
-    place: "Zettabyte Pte Ltd",
-    years: "January - 2022",
+    award: "Panitia Divisi Keamanan [P2K Universitas Ahmad Dahlan]",
+    place: "Universitas Ahmad Dahlan",
+    years: "2025",
   },
 ];

@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Badge, Box, Container, Flex, Grid, GridItem } from "@chakra-ui/react";
 import { AiFillTrophy } from "react-icons/ai";
 import { MdOutlineSchool } from "react-icons/md";
-import { AwardListItem, EducationListItem, SectionDescription, SectionSubtitle, SectionTitle } from "@/fragments";
+import { AwardListItem, EducationListItem, SectionTitle } from "@/fragments";
 import { awardList, educationList } from "@/constants";
 import { fadeInTransition, staggeredContainer } from "@/utils";
 import SectionLayout from "@/layouts/SectionLayout";
@@ -31,27 +31,9 @@ function EducationSectionComponent(): React.JSX.Element {
         maxWidth={{ base: "container.lg", lg: "75rem" }}
       >
         <Grid
-          templateColumns={{ base: "1fr", lg: "25% 70%" }}
-          gap={{ base: 10, lg: "5%" }}
-        >
-          {/* Education Section Subtitle & Description */}
-          <GridItem
-            as={motion.div}
-            variants={fadeInTransition("right", "tween", 0.2, 0.5)}
-          >
-            <Flex
-              height="100%"
-              width="100%"
-              direction="column"
-              justifyContent="center"
-              alignItems="center"
-              rowGap={{ base: 3, lg: 5 }}
-            >
-              <SectionSubtitle>Educations🎓 & Awards🏆</SectionSubtitle>
-
-              <SectionDescription>There are some formal education & awards that i&apos;ve reached below</SectionDescription>
-            </Flex>
-          </GridItem>
+  templateColumns="1fr"
+  justifyContent="center"
+>
 
           {/* Education Section Educations & Awards Content */}
           <GridItem

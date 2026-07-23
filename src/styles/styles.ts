@@ -11,6 +11,9 @@ export const styles: Styles = {
     "::-webkit-scrollbar": {
       display: "none",
     },
+    html: {
+      fontSize: "70%", // Mengecilkan semua ukuran berbasis rem jadi 70%
+    },
     body: {
       transition: "all 300ms",
     },

@@ -2,7 +2,7 @@ import * as React from "react";
 import { motion } from "framer-motion";
 import { Box, Container, Flex, Grid, GridItem, Tab, TabList, TabPanel, TabPanels, Tabs } from "@chakra-ui/react";
 import { FaCode, FaPencilRuler } from "react-icons/fa";
-import { SectionDescription, SectionSubtitle, SectionTitle, SkillCard } from "@/fragments";
+import { SectionTitle, SkillCard } from "@/fragments";
 import { skillList, toolList } from "@/constants";
 import { fadeInTransition, staggeredContainer } from "@/utils";
 import SectionLayout from "@/layouts/SectionLayout";
@@ -30,9 +30,9 @@ function SkillsSectionComponent(): React.JSX.Element {
         maxWidth={{ base: "container.lg", xl: "75rem" }}
       >
         <Grid
-          templateColumns={{ base: "1fr", lg: "70% 25%" }}
-          gap={{ base: 10, lg: "5%" }}
-        >
+  templateColumns="1fr"
+  justifyContent="center"
+>
           {/* Skills Section Tech Stack & Tools Content */}
           <GridItem
             as={motion.div}
@@ -132,26 +132,6 @@ function SkillsSectionComponent(): React.JSX.Element {
                 </TabPanel>
               </TabPanels>
             </Tabs>
-          </GridItem>
-
-          {/* Skills Section Subtitle & Description */}
-          <GridItem
-            as={motion.div}
-            variants={fadeInTransition("left", "tween", 0.1, 1.1)}
-            order={{ base: 1, lg: 2 }}
-          >
-            <Flex
-              height="100%"
-              width="100%"
-              direction="column"
-              justifyContent="center"
-              alignItems="center"
-              rowGap={{ base: 3, lg: 5 }}
-            >
-              <SectionSubtitle textAlign={{ lg: "end" }}>Tech Stack⚙️ & Tools🛠️</SectionSubtitle>
-
-              <SectionDescription textAlign={{ base: "center", lg: "end" }}>There are some tech stack and tools that i&apos;ve learned and experienced</SectionDescription>
-            </Flex>
           </GridItem>
         </Grid>
       </Container>
