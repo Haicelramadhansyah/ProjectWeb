@@ -50,10 +50,10 @@ export const skillList: Skill[] = [
     description: "React Native is a free and open-source framework for building mobile applications using React.",
   },
   {
-    skillIcon: "/assets/svg/angular.svg",
-    title: "Angular",
+    skillIcon: "/assets/svg/java.svg",
+    title: "Java",
     level: "Basic",
-    description: "Angular is a development platform and framework for building scalable web applications.",
+    description: "Java is a high-level, class-based, object-oriented programming language.",
   },
   {
     skillIcon: "/assets/svg/bootstrap.svg",
@@ -68,16 +68,16 @@ export const skillList: Skill[] = [
     description: "PHP is a server-side scripting language designed specifically for web development.",
   },
   {
-    skillIcon: "/assets/svg/mysql.svg",
-    title: "MySQL",
-    level: "Intermediate",
-    description: "MySQL is a relational database management system (RDBMS) that is based on structured query language (SQL).",
+    skillIcon: "/assets/svg/c++.svg",
+    title: "c++",
+    level: "Advanced",
+    description: "C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language.",
   },
   {
-    skillIcon: "/assets/svg/codeigniter.svg",
-    title: "CodeIgniter",
+    skillIcon: "/assets/svg/python.svg",
+    title: "Python",
     level: "Basic",
-    description: "CodeIgniter is an open-source software rapid development web framework, for use in building dynamic web sites with PHP.",
+    description: "Python is a high-level, interpreted programming language known for its simplicity and readability.",
   },
   {
     skillIcon: "/assets/svg/node js.svg",
@@ -90,42 +90,6 @@ export const skillList: Skill[] = [
     title: "Laravel",
     level: "Intermediate",
     description: "Laravel is a PHP framework for building web applications with expressive, elegant syntax.",
-  },
-  {
-    skillIcon: "/assets/svg/vite.svg",
-    title: "Vite",
-    level: "Basic",
-    description: "Vite is a front-end build tool that aims to provide a faster and leaner development experience for modern web projects.",
-  },
-  {
-    skillIcon: "/assets/svg/material ui.svg",
-    title: "Material UI",
-    level: "Basic",
-    description: "Material UI is a CSS framework that provides React components out-of-the-box and follows Google’s Material Design.",
-  },
-  {
-    skillIcon: "/assets/svg/flutter.svg",
-    title: "Flutter",
-    level: "Intermediate",
-    description: "Flutter is an open-source mobile application development framework created by Google. It enables developers to build natively compiled applications for mobile, web, and desktop platforms using a single codebase.",
-  },
-  {
-    skillIcon: "/assets/svg/dart.svg",
-    title: "Dart",
-    level: "Intermediate",
-    description: "Dart is a programming language developed by Google. It is used to build cross-platform applications.",
-  },
-  {
-    skillIcon: "/assets/svg/firebase.svg",
-    title: "Firebase",
-    level: "Basic",
-    description: "Firebase is a platform developed by Google. It is used to build web and mobile applications.",
-  },
-  {
-    skillIcon: "/assets/svg/vue.svg",
-    title: "Vue.js",
-    level: "Basic",
-    description: "Vue.js is a progressive JavaScript framework for building user interfaces, known for its simplicity and flexibility.",
   },
 ];
 
@@ -143,10 +107,10 @@ export const toolList: Skill[] = [
     description: "GitHub is a web-based platform that provides a wide range of features for developers to collaborate on software development projects.",
   },
   {
-    skillIcon: "/assets/svg/figma.svg",
-    title: "Figma",
-    level: "Basic",
-    description: "Figma is a web-based design and prototyping tool that can be used to create mobile app interfaces, websites, social media posts, and more.",
+    skillIcon: "/assets/svg/claude.svg",
+    title: "Claude",
+    level: "Advanced",
+    description: "Claude is an AI-powered virtual assistant that can help with a variety of tasks, including answering questions, providing recommendations, and automating workflows.",
   },
   {
     skillIcon: "/assets/svg/xampp.svg",

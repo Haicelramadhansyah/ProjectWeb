@@ -7,7 +7,7 @@ export const profileData: Profile = {
   divisions: ["Cyber Security", "Game Developer", "Software Engineer"],
   pictures: ["/assets/images/home-profile.png", "/assets/images/about-profile.jpeg?v=2"],
   descriptions: [
-    "I am creating stunning software for your business, Intermediate experienced in web design and development.",
+    "Passionate about Cyber Security, Software Engineering, and Game Development, creating secure and innovative digital solutions.",
     "Saya memiliki minat yang besar di bidang Cyber Security dan Software Engineering. Saya terus mengembangkan kemampuan dalammembangun aplikasi yang aman, efisien, dan berkualitas melalui pembelajaran serta berbagai proyek pengembangan perangkat lunak.",
   ],
   experiences: [
