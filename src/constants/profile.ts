@@ -12,7 +12,7 @@ export const profileData: Profile = {
   ],
   experiences: [
     {
-      number: 3,
+      number: 2,
       title: "Years Of Experience",
     },
     {
@@ -20,7 +20,7 @@ export const profileData: Profile = {
       title: "Framework & Tech Stack Used",
     },
     { 
-      number: 10,
+      number: 5,
       title: "Successed Projects",
     },
   ],

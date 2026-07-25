@@ -37,22 +37,21 @@ function AboutSectionComponent(): React.JSX.Element {
         >
           {/* About Image Banner */}
           <GridItem
-            as={motion.div}
-            variants={fadeInTransition("right", "tween", 0.1, 1.1)}
-            display="grid"
-            placeItems="center"
-            bgGradient="linear(45deg, transparent, primary, transparent)"
-            borderRadius="1rem"
-            aspectRatio={1}
-            marginX={{ base: "auto", lg: 0 }}
-            width={{ base: "280px", md: "320px", lg: "100%" }}
-            height={{ base: "fit-content", lg: "fit-content", xl: "100%" }}
-          >
+  as={motion.div}
+  variants={fadeInTransition("right", "tween", 0.1, 1.1)}
+  display="grid"
+  placeItems="center"
+  bgGradient="linear(45deg, transparent, primary, transparent)"
+  borderRadius="1rem"
+  marginX={{ base: "auto", lg: 0 }}
+  width={{ base: "280px", md: "320px", lg: "100%" }}
+  height={{ base: "fit-content", lg: "fit-content", xl: "100%" }}
+>
             <Box
               overflow="hidden"
               borderRadius="1rem"
               transform={{ base: "rotate(0)", lg: "rotate(10deg)" }}
-              height={{ base: "22.5rem", md: "27.5rem", lg: "35rem", xl: "40rem" }}
+              height={{ base: "28rem", md: "27.5rem", lg: "35rem", xl: "40rem" }}
               transition="all 300ms"
               _hover={{
                 transform: "rotate(0)",
