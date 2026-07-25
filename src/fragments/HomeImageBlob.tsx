@@ -36,6 +36,7 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
           x="10"
           y="10"
           href={image}
+          xlinkHref={image}
           width="180"
           height="180"
         />
