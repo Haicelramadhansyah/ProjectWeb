@@ -7,7 +7,7 @@ export { default as SectionDescription } from "./SectionDescription";
 export { default as AboutExperienceCard } from "./AboutExperienceCard";
 export { default as SkillCard } from "./SkillCard";
 export { default as EducationListItem } from "./EducationListItem";
-export { default as AwardListItem } from "./AwardListItem";
+export { default as AchievementsListItem } from "./AchievementsListItem";
 export { default as WorkExperienceCard } from "./WorkExperienceCard";
 export { default as PortfolioCard } from "./PortfolioCard";
 export { default as PortfolioModal } from "./PortfolioModal";

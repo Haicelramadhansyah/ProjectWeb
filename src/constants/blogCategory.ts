@@ -10,11 +10,11 @@ export const blogCategories: BlogCategory[] = [
     color: "gray",
   },
   {
-    name: "CSS",
+    name: "C++",
     color: "blue",
   },
   {
-    name: "HTML",
+    name: "Java",
     color: "orange",
   },
   {
@@ -34,7 +34,7 @@ export const blogCategories: BlogCategory[] = [
     color: "green",
   },
   {
-    name: "Tailwind CSS",
+    name: "Kali Linux",
     color: "cyan",
   },
   {

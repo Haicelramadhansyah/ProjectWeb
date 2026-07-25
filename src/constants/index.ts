@@ -3,7 +3,7 @@ export * from "./navigationLink";
 export * from "./socialMedia";
 export * from "./skills";
 export * from "./education";
-export * from "./award";
+export * from "./Achievements";
 export * from "./workExperience";
 export * from "./portfolio";
 export * from "./blog";

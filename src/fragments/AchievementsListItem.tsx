@@ -1,11 +1,11 @@
 import * as React from "react";
 import { Box, Flex, Text } from "@chakra-ui/react";
 import { BiCalendar } from "react-icons/bi";
-import type { Award } from "@/types";
+import type { Achievements } from "@/types";
 
-type AwardListItemProps = Award;
+type AchievementsListItemProps = Achievements;
 
-export default function AwardListItem({ award, place, years }: AwardListItemProps): React.JSX.Element {
+export default function AchievementsListItem({ Achievements, place, years }: AchievementsListItemProps): React.JSX.Element {
   return (
     <Flex>
       <Box>
@@ -36,7 +36,7 @@ export default function AwardListItem({ award, place, years }: AwardListItemProp
           fontWeight="semibold"
           fontSize="1.1em"
         >
-          {award}
+          {Achievements}
         </Text>
 
         <Text

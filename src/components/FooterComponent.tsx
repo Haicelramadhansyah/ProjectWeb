@@ -1,14 +1,14 @@
 import * as React from "react";
 import { motion } from "framer-motion";
 import { Box, Flex, Text } from "@chakra-ui/react";
-import { navigationLinkList, profileData, socialMediaList } from "@/constants";
+import { profileData, socialMediaList } from "@/constants";
 import { Link } from "@chakra-ui/next-js";
 import { fadeInTransition, staggeredContainer, textVariantTransition } from "@/utils";
 
 export default function FooterComponent(): React.JSX.Element {
   const { name, divisions } = profileData;
 
-  const footerCopyrightText: string = `© 2025 Created by ${name}. All right reserved`;
+  const footerCopyrightText: string = `© ${new Date().getFullYear()} Created by ${name}. All right reserved`;
 
   return (
     <Flex
@@ -51,40 +51,8 @@ export default function FooterComponent(): React.JSX.Element {
           fontWeight="medium"
           fontSize="1.4rem"
         >
-          {divisions[0]}🧑‍💻
+          {divisions.join(" • ")} 🧑‍💻
         </Text>
-      </Flex>
-
-      {/* Footer Link List */}
-      <Flex
-        wrap="wrap"
-        direction={{ base: "column", lg: "row" }}
-        rowGap={{ base: "8", lg: 0 }}
-        columnGap={{ base: 0, lg: "8" }}
-      >
-        {navigationLinkList.map(
-          ({ title, href }, index): React.ReactNode => (
-            <Link
-              key={`#${title} - ${index}`}
-              href={`#${href}`}
-              color="white"
-              fontWeight="normal"
-              fontSize="1rem"
-              scroll={false}
-              _hover={{
-                color: "secondary",
-                textDecoration: "none",
-              }}
-            >
-              <Text
-                as={motion.div}
-                variants={fadeInTransition("up", "tween", index * 0.1, 1.2)}
-              >
-                {title}
-              </Text>
-            </Link>
-          )
-        )}
       </Flex>
 
       {/* Footer Social Media Link List */}

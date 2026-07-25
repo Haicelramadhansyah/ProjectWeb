@@ -8,7 +8,7 @@ export * from "./socialMedia";
 export * from "./experience";
 export * from "./skill";
 export * from "./education";
-export * from "./award";
+export * from "./Achievements";
 export * from "./workExperience";
 export * from "./portfolio";
 export * from "./techStack";

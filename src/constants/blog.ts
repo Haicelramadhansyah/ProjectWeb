@@ -22,7 +22,7 @@ export const blogList: Blog[] = [
         color: "gray.400",
       },
     ],
-    uploadedAt: new Date("2024-06-10"),
+    uploadedAt: new Date("2026-06-10"),
     author: {
       name: "Haicel Ramadhansyah",
       profileImage: "/assets/images/haicelramadhansyah.jpeg",
@@ -49,7 +49,7 @@ export const blogList: Blog[] = [
         color: "gray.400",
       },
     ],
-    uploadedAt: new Date("2024-06-08"),
+    uploadedAt: new Date("2025-06-08"),
     author: {
       name: "Haicel Ramadhansyah",
       profileImage: "/assets/images/haicelramadhansyah.jpeg",
@@ -76,7 +76,7 @@ export const blogList: Blog[] = [
         color: "gray.400",
       },
     ],
-    uploadedAt: new Date("2024-06-05"),
+    uploadedAt: new Date("2026-07-05"),
     author: {
       name: "Haicel Ramadhansyah",
       profileImage: "/assets/images/haicelramadhansyah.jpeg",

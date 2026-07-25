@@ -1,10 +1,10 @@
 import * as React from "react";
 import { motion } from "framer-motion";
-import { Badge, Box, Container, Flex, Grid, GridItem } from "@chakra-ui/react";
+import { Badge, Box, Container, Grid, GridItem } from "@chakra-ui/react";
 import { AiFillTrophy } from "react-icons/ai";
 import { MdOutlineSchool } from "react-icons/md";
-import { AwardListItem, EducationListItem, SectionTitle } from "@/fragments";
-import { awardList, educationList } from "@/constants";
+import { AchievementsListItem, EducationListItem, SectionTitle } from "@/fragments";
+import { AchievementsList, educationList } from "@/constants";
 import { fadeInTransition, staggeredContainer } from "@/utils";
 import SectionLayout from "@/layouts/SectionLayout";
 
@@ -35,7 +35,7 @@ function EducationSectionComponent(): React.JSX.Element {
   justifyContent="center"
 >
 
-          {/* Education Section Educations & Awards Content */}
+          {/* Education Section Educations & Achievementss Content */}
           <GridItem
             backgroundColor="card"
             shadow="lg"
@@ -88,7 +88,7 @@ function EducationSectionComponent(): React.JSX.Element {
                 </Box>
               </GridItem>
 
-              {/* Education Section Awards Content */}
+              {/* Education Section Achievementss Content */}
               <GridItem
                 as={motion.div}
                 variants={fadeInTransition("left", "tween", 0.2, 1.1)}
@@ -105,15 +105,15 @@ function EducationSectionComponent(): React.JSX.Element {
                   borderRadius="md"
                 >
                   <AiFillTrophy fontSize={18} />
-                  Awards
+                  Achievementss
                 </Badge>
 
                 <Box marginTop={8}>
-                  {awardList.map(
-                    ({ award, place, years }, index): React.ReactNode => (
-                      <AwardListItem
+                  {AchievementsList.map(
+                    ({ Achievements, place, years }, index): React.ReactNode => (
+                      <AchievementsListItem
                         key={`${place} - ${index}`}
-                        award={award}
+                        Achievements={Achievements}
                         place={place}
                         years={years}
                       />

@@ -28,17 +28,7 @@ function BlogPageSectionComponent(): React.JSX.Element {
         initial="hidden"
         maxWidth={{ base: "container.lg", lg: "75rem" }}
       >
-        {/* Blog Page Section Subtitle & Description */}
-        <Flex
-          as={motion.div}
-          variants={fadeInTransition("up", "tween", 0.1, 1.1)}
-          direction="column"
-          rowGap={{ base: 3, lg: 5 }}
-        >
-          <SectionSubtitle>All Blog About Coding📝</SectionSubtitle>
-          <SectionDescription>There are some blog about coding that i create to add more insight and also to share knowledge</SectionDescription>
-        </Flex>
-
+        
         {/* Blog Page Section Content Container */}
         <Grid
           as={motion.div}

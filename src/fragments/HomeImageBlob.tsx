@@ -16,7 +16,7 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
     >
       <mask
         id="mask0"
-        mask-type="alpha"
+        style={{ maskType: "alpha" }}
       >
         <path
           d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
