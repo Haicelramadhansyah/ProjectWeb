@@ -16,4 +16,9 @@ export const AchievementsList: Achievements[] = [
     place: "Universitas Ahmad Dahlan",
     years: "2025",
   },
+  {
+    Achievements: "Asisten praktikum [Komunikasi data dan jaringan komputer]",
+    place: "Universitas Ahmad Dahlan",
+    years: "2026",
+  },
 ];
