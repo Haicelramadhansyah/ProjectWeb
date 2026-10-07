@@ -13,12 +13,12 @@ export const educationList: Education[] = [
   },
   {
     school: "SMPN 03 Kepahiang",
-    competence: " ",
+    competence: "General",
     years: "2016 - 2019",
   },
   {
     school: "SDN 03 Kepahiang",
-    competence: " ",
+    competence: "General",
     years: "2010 - 2016",
   },
 ];
