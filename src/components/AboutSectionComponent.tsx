@@ -74,9 +74,13 @@ function AboutSectionComponent(): React.JSX.Element {
 
           {/* About Section Information Content */}
           <GridItem
-            as={motion.div}
-            variants={fadeInTransition("left", "tween", 0.1, 1.1)}
-          >
+           as={motion.div}
+           // variants={slideInTransition("right", "tween", 0.1, 1)}  <- nonaktifkan sementara
+           display="flex"
+           flex="1"
+           justifyContent="center"
+           alignItems="center"
+           >
             <Flex
               as={motion.div}
               variants={fadeInTransition("left", "tween", 0.2, 1.1)}
