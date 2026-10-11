@@ -20,7 +20,7 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
     // Wrapper luar: lebar pasti + padding sebagai pengganti margin SVG lama
     <Box
       width="100%"
-      maxWidth={{ base: "20rem", md: "26rem", lg: "none" }}
+      maxWidth={{ base: "24rem", md: "26rem", lg: "none" }}
       marginX="auto"
       padding={{ base: "1", lg: "4" }}
       flexShrink={0}
