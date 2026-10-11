@@ -20,8 +20,8 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
     // Wrapper luar: lebar pasti + padding sebagai pengganti margin SVG lama
     <Box
       width="100%"
-      maxWidth="28rem"
-      padding="4"
+      maxWidth={{ base: "100%", lg: "none" }}
+      padding={{ base: "1", lg: "4" }}
       flexShrink={0}
     >
       {/* Wrapper rasio: tinggi = 187/200 = 93.5% dari lebar.
