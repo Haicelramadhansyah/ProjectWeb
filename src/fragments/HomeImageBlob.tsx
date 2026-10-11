@@ -54,15 +54,17 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
 
           {/* Foto dipotong mengikuti blob */}
           <g clipPath={`url(#${clipId})`}>
+
             <image
-            x="25"
-            y="25"
-            href={image}
-            xlinkHref={image}
-            width="150"
-            height="140"
-            preserveAspectRatio="xMidYMax meet"
-        />
+            
+  x="10"
+  y="7"
+  href={image}
+  xlinkHref={image}
+  width="180"
+  height="180"
+  preserveAspectRatio="xMidYMax meet"
+/>
             
           </g>
         </svg>
