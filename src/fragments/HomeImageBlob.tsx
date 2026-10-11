@@ -20,7 +20,8 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
     // Wrapper luar: lebar pasti + padding sebagai pengganti margin SVG lama
     <Box
       width="100%"
-      maxWidth={{ base: "100%", lg: "none" }}
+      maxWidth={{ base: "20rem", md: "26rem", lg: "none" }}
+      marginX="auto"
       padding={{ base: "1", lg: "4" }}
       flexShrink={0}
     >
@@ -54,14 +55,15 @@ export default function HomeImageBlob({ fill, image }: HomeImageBlobProps): Reac
           {/* Foto dipotong mengikuti blob */}
           <g clipPath={`url(#${clipId})`}>
             <image
-              x="10"
-              y="10"
-              href={image}
-              xlinkHref={image}
-              width="180"
-              height="180"
-              preserveAspectRatio="xMidYMid slice"
-            />
+  x="25"
+  y="25"
+  href={image}
+  xlinkHref={image}
+  width="150"
+  height="162"
+  preserveAspectRatio="xMidYMax meet"
+/>
+            
           </g>
         </svg>
       </Box>
