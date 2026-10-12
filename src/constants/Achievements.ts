@@ -1,11 +1,7 @@
 import type { Achievements } from "@/types";
 
 export const AchievementsList: Achievements[] = [
-  {
-    Achievements: "Cyber Security Learning Path",
-    place: "TryHackMe",
-    years: "2026",
-  },
+  
   {
     Achievements: "Smart Car Obstacle Avoidance Robotics Project",
     place: "Robotic Development Community (RDC) - Universitas Ahmad Dahlan",
@@ -16,8 +12,18 @@ export const AchievementsList: Achievements[] = [
     place: "Universitas Ahmad Dahlan",
     years: "2025",
   },
+{
+    Achievements: "Cyber Security Learning Path",
+    place: "TryHackMe",
+    years: "2026",
+  },
   {
     Achievements: "Asisten praktikum [Komunikasi data dan jaringan komputer]",
+    place: "Universitas Ahmad Dahlan",
+    years: "2026",
+  },
+  {
+    Achievements: "Gemini Academy - Student [Gemini X Universitas Ahmad Dahlan]",
     place: "Universitas Ahmad Dahlan",
     years: "2026",
   },
